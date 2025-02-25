@@ -1,0 +1,7 @@
+services:
+  describeimagewithai:
+    image: intelligentcontentacademy/describeimagewithai:latest
+    ports:
+      - "8501:8501"
+    environment:
+      - ANTHROPIC_API_KEY=YOUR API KEY HERE
