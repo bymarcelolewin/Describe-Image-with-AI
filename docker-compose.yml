@@ -1,6 +1,6 @@
 services:
   describeimagewithai:
-    image: bymarcelolewin/describeimagewithai:latest
+    image: bymarcelolewin/describe-image-with-ai:latest
     ports:
       - "8501:8501"
     environment:
